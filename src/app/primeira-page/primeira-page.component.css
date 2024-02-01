@@ -1,0 +1,202 @@
+header{
+    width: 100%;
+    position: fixed;
+    background-color: transparent;
+    z-index: 2;
+}
+/* NAVBAR*/
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container-menu ul{
+    display: flex;
+    z-index: 3;
+}
+.menu li{
+    font-family: 'Dancing Script', cursive;
+    list-style: none;
+    margin-left: 20px;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 20px;
+}
+#corH1{
+    color: aqua;
+}
+#part{
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+/* section */
+.sectionUm{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+}
+.container-aside{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 13rem;
+    z-index: 4;
+}
+.titulo-section h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grape Nuts', cursive;
+}
+.titulo-section p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grape Nuts', cursive;
+    letter-spacing: 3px;
+}
+.titulo-section h3{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grape Nuts', cursive;
+}
+#palavras-troca{
+    color: aqua;
+}
+.titulo-section img{
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+/* Lateral da home */
+
+.imagem-programador img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+/* Sobre mim*/
+.sectionDois{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+}
+.historia{
+    width: 500px;
+    text-align: left;
+    justify-content: center;
+    padding: 20px;
+}
+.historia p{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Grape Nuts', cursive;
+    color: #fff;
+}
+.historia h1{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px rgb(56, 205, 250);
+}
+.foto img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.cv-posicao{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.curriculo{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(21, 57, 136);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 6px  rgb(56, 205, 250);
+}
+.curriculo a{
+    color: #fff;
+}
+/* Habilidades */
+.sectionTres{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: auto auto;
+    z-index: 3;
+}
+.habilidades ul{
+    margin: 20px;
+    width: 50px;
+}
+.habilidades li{
+    color: #fff;
+    list-style: none;
+    font-size: 25px;
+}
+.hardskill ul{
+    width: 50px;
+    margin: 20px;
+}
+.hardskill li{
+    color: #fff;
+    list-style: none;
+    font-size: 25px;
+}
+/* Projetos */
+.sectionQuatro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.projeto{
+    width: 100%;
+    height: 450px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 5px;
+}
+.botoes input{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+}

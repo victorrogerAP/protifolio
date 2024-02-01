@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes animacao{
+    0%{ 
+        transform: scale(5);
+     }
+    100%{
+        transform: scale(10);
+    }
+   
+ }
+body{
+    background: #203c66;
+}
+.bolhas{
+    display: grid;
+    grid-template-columns: auto auto;
+    place-content: center;
+    position: fixed;
+    z-index: -1;
+}
+.bolhas span{
+    width: 10px;
+    height: 10px;
+    background: #4fc3dc;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animacao 15s linear infinite;
+    z-index: -1;
+    justify-content: space-around;
+}
